@@ -1,12 +1,6 @@
 # Internshala Clone — IS Search Page Assignment
 
-A Next.js 14 replica of Internshala's internship search page, built for the SDE (Web) Internship assignment.
-
-## Live Demo
-> Add your Vercel URL here after deployment
-
-## GitHub
-> Add your GitHub repo link here
+A Next.js 14 replica of Internshala's internship search page, built for the SDE (Web) Internship assignment
 
 ---
 
@@ -29,54 +23,54 @@ npm run dev
 
 ```
 src/
-├── app/                        # Next.js App Router
-│   ├── layout.jsx              # Root HTML layout
-│   ├── page.jsx                # Main search page (entry point)
+├── app/                       
+│   ├── layout.jsx              
+│   ├── page.jsx                
 │   └── page.module.css
 │
-├── components/                 # One folder per component
-│   ├── Avatar/                 # Company initials avatar
+├── components/                 
+│   ├── Avatar/                 
 │   │   ├── Avatar.jsx
 │   │   └── Avatar.module.css
-│   ├── Badge/                  # Coloured label pill (Remote, International)
+│   ├── Badge/                  
 │   │   ├── Badge.jsx
 │   │   └── Badge.module.css
-│   ├── Tag/                    # Metadata chip (location, duration, stipend)
+│   ├── Tag/                    
 │   │   ├── Tag.jsx
 │   │   └── Tag.module.css
-│   ├── Header/                 # Top navigation bar
+│   ├── Header/                 
 │   │   ├── Header.jsx
 │   │   └── Header.module.css
-│   ├── SearchBar/              # Text search input
+│   ├── SearchBar/             
 │   │   ├── SearchBar.jsx
 │   │   └── SearchBar.module.css
-│   ├── FilterSidebar/          # All 4 filter controls
+│   ├── FilterSidebar/          
 │   │   ├── FilterSidebar.jsx
 │   │   └── FilterSidebar.module.css
-│   ├── InternshipCard/         # Single internship list item
+│   ├── InternshipCard/         
 │   │   ├── InternshipCard.jsx
 │   │   └── InternshipCard.module.css
-│   ├── InternshipList/         # Scrollable list of cards
+│   ├── InternshipList/        
 │   │   ├── InternshipList.jsx
 │   │   └── InternshipList.module.css
-│   ├── DetailPanel/            # Right-hand detail view
+│   ├── DetailPanel/            
 │   │   ├── DetailPanel.jsx
 │   │   └── DetailPanel.module.css
-│   └── EmptyState/             # Shown when no results match
+│   └── EmptyState/            
 │       ├── EmptyState.jsx
 │       └── EmptyState.module.css
 │
 ├── data/
-│   └── internships.js          # Static dataset from Internshala API
+│   └── internships.js         
 │
 ├── hooks/
-│   └── useInternshipFilters.js # All filter state + logic (custom hook)
+│   └── useInternshipFilters.js
 │
 ├── constants/
-│   └── filters.js              # Stipend ranges and filter key names
+│   └── filters.js              
 │
 └── styles/
-    └── globals.css             # Reset, layout helpers, base typography
+    └── globals.css            
 ```
 
 ---
@@ -113,4 +107,4 @@ npm install -g vercel
 vercel
 ```
 
-Follow the prompts. Vercel auto-detects Next.js and deploys in ~60 seconds.
+
