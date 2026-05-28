@@ -106,3 +106,23 @@
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0,74,173,0.3);
 }
+
+@media (max-width: 768px) {
+  .inner {
+    gap: 12px;
+    height: 56px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .count {
+    display: none;
+  }
+
+  .loginBtn {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+}

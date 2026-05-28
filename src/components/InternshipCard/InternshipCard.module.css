@@ -192,3 +192,22 @@
 .badgeRemote { background: #e6f7f1; color: var(--success); }
 .badgeIntl { background: #ede9fe; color: #6d28d9; }
 .badgePPO { background: var(--warn-light); color: #92400e; }
+
+@media (max-width: 768px) {
+  .card {
+    padding: 14px 16px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .tags {
+    gap: 5px;
+  }
+
+  .tag {
+    font-size: 11px;
+    padding: 3px 8px;
+  }
+}

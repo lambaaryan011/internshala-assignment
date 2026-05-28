@@ -250,3 +250,11 @@
   color: var(--accent);
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .panel {
+    width: 100%;
+    max-height: unset;
+    position: static;
+  }
+}

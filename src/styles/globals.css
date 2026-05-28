@@ -53,6 +53,28 @@ body {
   top: 80px;
 }
 
+
+@media (max-width: 1024px) {
+  .main-layout {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-wrapper {
+    padding: 0 16px;
+  }
+
+  .main-layout {
+    flex-direction: column;
+    padding: 16px 0 32px;
+  }
+
+  .sticky-panel {
+    position: static;
+  }
+}
+
 button { cursor: pointer; font-family: inherit; }
 input, select { font-family: inherit; }
 
